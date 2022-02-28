@@ -1,0 +1,55 @@
+@import 'colours';
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 790px;
+  color: $text-color;
+
+  h1 {
+    font-size: 4.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 2.3rem;
+  }
+  
+  p {
+    margin-bottom: 1.8rem;
+  }
+
+  .toggleButton {
+    padding: 1.2rem;
+    font-size: 1.4rem;
+    margin-top: 2.5rem;
+    border: 1px solid $button-border-color;
+    background: $button-background-color;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    color: $button-text-color;
+    font-weight: 600;
+    cursor: pointer;
+
+    &:hover {
+      border: 1px solid $button-hover-border-color;
+      background: $button-hover-background-color;
+      color: $button-hover-text-color;
+    }
+
+    &:active {
+      border: 1px solid $button-active-border-color;
+      background: $button-active-background-color;
+      color: $button-active-text-color;
+    }
+  }
+}
+@media screen and (max-width: 500px){
+  .pageContainer h1{
+    font-size: 35px;
+  }
+  .pageContainer p{
+    font-size: 20px;
+    text-align: center;
+  }
+}
