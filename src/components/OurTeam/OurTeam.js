@@ -11,7 +11,7 @@ const OurTeam = () => {
               <img
                 className="card-img-top"
                 src="https://images.unsplash.com/photo-1584937247987-07276272d215?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80"
-                alt="Card image cap"
+                alt=""
               />
               <div className="card-body">
                 <h4 className="card-title h4">Person</h4>
@@ -27,7 +27,7 @@ const OurTeam = () => {
               <img
                 className="card-img-top"
                 src="https://images.unsplash.com/photo-1584937248081-634bb38393fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
-                alt="Card image cap"
+                alt=""
               />
               <div className="card-body">
                 <h4 className="card-title h4">Person</h4>
@@ -43,7 +43,7 @@ const OurTeam = () => {
               <img
                 className="card-img-top"
                 src="https://images.unsplash.com/photo-1584937248081-634bb38393fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
-                alt="Card image cap"
+                alt=""
               />
               <div className="card-body">
                 <h4 className="card-title h4">Person</h4>
