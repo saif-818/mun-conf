@@ -16,9 +16,22 @@
 .container .card {
 	position: relative;
 	width: 300px;
-	height: 360px;
+	height: 480px;
 	background: rgba(255, 255, 255, 0.05);
-	margin: 60px;
+	margin: 60px 150px;
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(10px);
+}
+.container .card1 {
+	position: relative;
+	width: 300px;
+	height: 480px;
+	background: rgba(255, 255, 255, 0.05);
+	margin: 60px ;
 	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
 	border-radius: 15px;
 	display: flex;
@@ -42,8 +55,8 @@
 
 .container .card .content .imgBx {
 	position: relative;
-	width: 200px;
-	height: 200px;
+	width: 300px;
+	height: 380px;
 	overflow: hidden;
 }
 
@@ -89,7 +102,9 @@
 
 .container .card:hover .sci li {
 	transform: translateY(0px);
-	opacity: 1;
+	position: relative;
+	color: white;
+	opacity: 100;
 }
 
 .container .card .sci li a {
