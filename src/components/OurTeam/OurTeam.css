@@ -102,7 +102,9 @@
 
 .container .card:hover .sci li {
 	transform: translateY(0px);
-	opacity: 1;
+	position: relative;
+	color: white;
+	opacity: 100;
 }
 
 .container .card .sci li a {
