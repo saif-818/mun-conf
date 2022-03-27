@@ -4,7 +4,7 @@
     align-self: stretch;
     display: flex;
     border: 1px solid $border-color;
-    padding: 60px;
+    padding: 70px;
 
     .timeIsUp {
         flex: 1;
@@ -12,5 +12,10 @@
         font-size: 3.5rem;
         text-transform: uppercase;
         font-weight: 600;
+    }
+}
+@media screen and (max-width: 500px){
+    .tickerShell{
+        padding: 25px;
     }
 }

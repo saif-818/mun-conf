@@ -35,7 +35,7 @@ $letterStagger: 0.1s;
     top: 100px;
     width: 100%;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 2.5px;
     transition: $sliderReadyTrans;
@@ -110,7 +110,7 @@ $letterStagger: 0.1s;
     }
 
     &-heading {
-      $fontSize: 60px;
+      $fontSize: 35px;
       
       display: flex;
       margin-bottom: 20px;
@@ -339,7 +339,8 @@ $letterStagger: 0.1s;
 }
 @media screen and (max-width: 500px){
     .slider__slide-heading{
-      font-size: 48px;
+      font-size: 18px;
+      letter-spacing: 1px;
     }
     .slider__slide-subheading{
       font-size: 22px;
@@ -353,5 +354,9 @@ $letterStagger: 0.1s;
     }
     .slider__control:before {
       display: none;
+    }
+    .event-schedule {
+      font-size: 15px;
+      letter-spacing: 1px;
     }
 }

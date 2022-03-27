@@ -50,16 +50,17 @@ const CitiesSlider = (props) => {
             key={slide.city}
           >
             <div className="slider__slide-content">
-              <h3 className="slider__slide-subheading">
-                {slide.country || slide.city}
-              </h3>
-              <h2 className="slider__slide-heading">
-                {slide.city.split("").map((l) => (
+              {/* <h3 className="slider__slide-subheading">
+                { '-Think,Discuss,Prosper-'}
+              </h3> */}
+              <h4 className="slider__slide-heading">
+                {/* {slide.city.split("").map((l) => (
                   <span>{l}</span>
-                ))}
-              </h2>
-              <h3 style={{marginBottom:'5px'}}>4-5 May 2022 | PICT PUNE</h3>
-              <p className="slider__slide-readmore">read more</p>
+                ))} */}
+                {'-Think,Dicuss,Prosper-'}
+              </h4>
+              <h3 className='event-schedule' style={{marginBottom:'5px',fontWeight:'200'}}>30th April to 1st May 2022</h3>
+              {/* <p className="slider__slide-readmore">read more</p> */}
             </div>
             
             <div className="slider__slide-parts">

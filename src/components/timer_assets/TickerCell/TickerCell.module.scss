@@ -10,13 +10,17 @@
     
     > .tickerCellLabel {
         font-style: italic;
+        margin-top: 40px;
     }
 }
 @media screen and (max-width: 500px){
     .tickerCell{
     
         > .tickerCellValue{
-           font-size: 4rem;
+           font-size: 3rem;
+        }
+        > .tickerCellLabel{
+            font-size: 1.1rem;
         }
     }
 }

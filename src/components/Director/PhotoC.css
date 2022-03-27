@@ -1,0 +1,45 @@
+.FlexWrap{
+    /* top: 10px; */
+    position: relative;
+    padding: 30px;
+    margin: auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+}
+.box{
+    overflow: hidden;
+    box-shadow: 0px 12px 18px -6px rgb(0,0,0,0.3);
+    border-radius: 10px;
+    object-fit: contain;
+    padding: 30px;
+}
+.photo-container img{
+    float: left;
+    max-height: 300px;
+    width: 23%;
+    padding: 0 10px 0 0;
+    border-radius: 15%;
+    margin: 0px 5px 3px 0px;
+}
+.photo-container{
+    padding: 20px;
+}
+.text{
+    text-align: justify;
+}
+@media screen and (max-width: 500px) {
+    .photo-container img{
+        min-width: 100%;
+        padding: 0px;
+        margin-bottom: 6px;
+    } 
+    .photo-container {
+        padding: 2px;
+    }
+    .box {
+        padding: 50px;
+    }
+}
