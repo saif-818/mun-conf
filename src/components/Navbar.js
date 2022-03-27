@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import MenuIcon from '@mui/icons-material/Menu';
+import { Turn as Hamburger } from 'hamburger-react'
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -25,23 +26,25 @@ export default function Navbar() {
 
   return (
     <nav>
-       <button onClick={toggleNav} className="btn">
-          <MenuIcon fontSize="medium" />
-       </button>
+       <div className='btn' onClick={toggleNav}> 
+          <Hamburger toggled={toggleMenu} toggle={toggleMenu} easing="ease-in" distance="md" size={20} color='white' />
+       </div>
       <div className="logo-section">
         <div class="img-logo"></div>
-        <a href="#home" class="site-logo">PICT MUN</a>
+        <Link to='/' className="site-logo">
+            PICT MUN
+        </Link>
       </div>
       {(toggleMenu || screenWidth > 500) && (
         <ul className="list">
-          <Link to='/ourteam'>
-            <li className="items">Our Team</li>
+          <Link to='/ourteam' style={{textDecoration: 'none'}}>
+            <li className="nav-link nav-link-ltr">Our Team</li>
           </Link>
-          <Link to='/resources'>
-            <li className="items">Resources</li>
+          <Link to='/resources' style={{textDecoration: 'none'}}>
+            <li className="nav-link nav-link-ltr">Resources</li>
           </Link>
-          <Link to='/committees'>
-            <li className="items">Committees</li>
+          <Link to='/committees' style={{textDecoration: 'none'}}>
+            <li className="nav-link nav-link-ltr">Committees</li>
           </Link>
         </ul>
       )}
