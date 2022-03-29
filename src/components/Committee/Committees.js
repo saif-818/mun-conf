@@ -17,7 +17,7 @@ const Committees = () => {
           <input type="radio" id="s-4" name="slider-control" />
           <input type="radio" id="s-5" name="slider-control" />
           <ul className="s-content">
-            <li className="s-item s-item-1"></li>
+            <li className="s-item s-item-1"> </li>
             <li className="s-item s-item-2"></li>
             <li className="s-item s-item-3"></li>
             <li className="s-item s-item-4"></li>
