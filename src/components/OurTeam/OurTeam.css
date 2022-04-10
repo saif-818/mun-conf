@@ -10,7 +10,7 @@
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	margin: 40px 0;
+	margin: 20px 0;
 }
 
 .container .card {
@@ -115,4 +115,5 @@
 	.container .card .sci li a {
 		font-size: 14px;
 	}
+	
 }

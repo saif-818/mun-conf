@@ -1,9 +1,9 @@
 import React from 'react';
 import {Route,Routes} from 'react-router-dom';
 import LandingPage from './components/LandingPage';
-import Committees from './components/Committee/Committees';
 import OurTeam from './components/OurTeam/OurTeam';
-import Resources from './components/Resources';
+import Committee from './components/Committee';
+import ContactUs from './components/ContactUs/ContactUs';
 import Navbar from './components/Navbar';
 
 const App = () => {
@@ -13,9 +13,9 @@ const App = () => {
        <Navbar/>
          <Routes>
             <Route path="/" element={<LandingPage />} />
-            <Route path="committees" element={<Committees />} />
+            <Route path="committees" element={<Committee />} />
             <Route path="ourteam" element={<OurTeam />} />
-            <Route path="resources" element={<Resources />} />
+            <Route path="contactus" element={<ContactUs />} />
           </Routes>
        </>
     );
