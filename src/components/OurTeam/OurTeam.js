@@ -20,6 +20,7 @@ const OurTeam = () => {
   return (
     <div>
       <div class="container">
+        <div className="team_heading1">Secretariat</div>
         <div class="card">
           <div class="content">
             <div class="imgBx">
@@ -58,7 +59,7 @@ const OurTeam = () => {
               <h3>
                 Malhaar Karandikar
                 <br />
-                <span>Director General USG Operations</span>
+                <span>Director General and USG Operations</span>
               </h3>
             </div>
           </div>
@@ -87,7 +88,7 @@ const OurTeam = () => {
               <h3>
                 Sufiya Sayyed
                 <br />
-                <span>Charged Affaires USG Content and Research</span>
+                <span>Charge d'Affaires USG Content and Research</span>
               </h3>
             </div>
           </div>
@@ -116,7 +117,7 @@ const OurTeam = () => {
               <h3>
                 Yash Kale
                 <br />
-                <span>Chief Strategy Officer USG Marketing</span>
+                <span>Chief Strategy Officer and USG Marketing</span>
               </h3>
             </div>
           </div>
@@ -140,6 +141,7 @@ const OurTeam = () => {
           </ul>
         </div>
         {/* 3 on row */}
+        <div className="team_heading2">Under - Secretary General</div>
         <div class="card card1">
           <div class="content">
             <div class="imgBx">
@@ -178,7 +180,7 @@ const OurTeam = () => {
               <h3>
                 Saima Ansari
                 <br />
-                <span>USG Design & Technical Affairs</span>
+                <span>USG Design and Technical Affairs</span>
               </h3>
             </div>
           </div>
@@ -207,7 +209,7 @@ const OurTeam = () => {
               <h3>
                 Zeel Patel
                 <br />
-                <span>USG External Affairs & Publicity</span>
+                <span>USG External Affairs and Publicity</span>
               </h3>
             </div>
           </div>
@@ -236,7 +238,7 @@ const OurTeam = () => {
               <h3>
                 Abhishek Bora
                 <br />
-                <span>USG Publicity & Marketing</span>
+                <span>USG Publicity and Marketing</span>
               </h3>
             </div>
           </div>
@@ -263,7 +265,7 @@ const OurTeam = () => {
               <h3>
                 Anuja Patil
                 <br />
-                <span>USG Technical Affairs & Delegate Affairs</span>
+                <span>USG Technical Affairs and Delegate Affairs</span>
               </h3>
             </div>
           </div>
@@ -295,7 +297,7 @@ const OurTeam = () => {
               <h3>
                 Soham Naik
                 <br />
-                <span>USG Delegate Affairs & Operations</span>
+                <span>USG Delegate Affairs and Operations</span>
               </h3>
             </div>
           </div>
@@ -311,10 +313,10 @@ const OurTeam = () => {
               </a>
             </li>
           </ul>
-        </div>
+        </div><br />
         {/* tech team */}
         <>
-          {/* <h5 className="team_heading">WebSite Team</h5> */}
+          <div className="team_heading">Web Team</div><br />
           <div class="card card1">
             <div class="content">
               <div class="imgBx">
@@ -324,7 +326,7 @@ const OurTeam = () => {
                 <h3>
                   Saifuddin Shaikh
                   <br />
-                  <span>Teachnical Team Member</span>
+                  <span>Web Team Member</span>
                 </h3>
               </div>
             </div>
@@ -353,7 +355,7 @@ const OurTeam = () => {
                 <h3>
                   Mansi Gundre
                   <br />
-                  <span>Teachnical Team Member</span>
+                  <span>Web Team Member</span>
                 </h3>
               </div>
             </div>
@@ -382,7 +384,7 @@ const OurTeam = () => {
                 <h3>
                   Rahul Amrutkar
                   <br />
-                  <span>Teachnical Team Member</span>
+                  <span>Web Team Member</span>
                 </h3>
               </div>
             </div>
