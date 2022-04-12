@@ -14,7 +14,7 @@ a.site-logo {
     display: inline-block;
     position: relative;
     font-size: 26px;
-    font-weight: 750;
+    font-weight: 700;
     margin-left: 10px;
     padding-top: 5px;
     text-transform: uppercase;
@@ -90,6 +90,9 @@ a.site-logo::before {
     font-size: 5px;
 }
 @media screen and (max-width: 500px){
+    a.site-logo {
+        font-size: 22px;
+    }
     .list {
         flex-direction: column;
         height: 75vh;

@@ -7,12 +7,15 @@ const CommitteeCard = ({agendaCards}) => {
             {agendaCards.map( (key) => 
        
                 <div class="card">
-                    <div class="image" style={ {backgroundImage: `url(${key.img})`,backgroundSize: 'contain',backgroundRepeat: 'no-repeat',marginLeft:'42px'}}>
+                    <div class="agenda-image" style={ {backgroundImage: `url(${key.img})`,backgroundSize: 'contain',backgroundRepeat: 'no-repeat',marginLeft:'28px'}}>
                     </div>
                     <div class="title">
-                        <h1>
+                        <h1 className='agenda-title'>
                             {key.agenda}
                         </h1>
+                        <p className='agenda-body'>
+                            {key.note}
+                        </p>
                     </div>
                     <div class="des">
                         <a href = {Pdf} target = "_blank" class="button" >Resources Coming Soon </a>

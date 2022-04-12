@@ -5,7 +5,8 @@ import DISEC from './committeeLogos/Black/DISEC.png';
 import AIPPM from './committeeLogos/Black/AIPPM.png';
 import UNHRC from './committeeLogos/Black/UNHRC.png';
 import UNSC from './committeeLogos/Black/UNSC.png';
-import UNW from './committeeLogos/Black/UNW.png';
+import IP from './committeeLogos/Black/IP.jpg';
+import AU from './committeeLogos/Black/AU3.jpg';
 import Footer from './Footer';
 
 
@@ -14,23 +15,33 @@ const Committee = () => {
     {
       agenda: 'DISEC',
       img: DISEC,
+      note: 'Assesing and Minimising The Threats of Biological Warfare'
     },
     {
       agenda: 'AIPPM',
       img: AIPPM,
+      note: 'Discussing The Implementation of Uniform Civil Code'
     },
     {
       agenda: 'UNHRC',
       img: UNHRC,
+      note: 'Human Rights Violation Due To Modern Slavery'
     },
     {
       agenda: 'UNSC',
       img: UNSC,
+      note: 'Militarisation of The Arctic'
     },
     {
-      agenda: 'UNW',
-      img: UNW,
+      agenda: 'IP',
+      img: IP,
+      note: ''
     },
+    {
+      agenda: 'AU',
+      img: AU,
+      note: 'Role of AU in The Emerging World Order'
+    }
   ];
   return (
     <>

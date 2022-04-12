@@ -31,13 +31,12 @@
     border-bottom: 2px solid #474545;
 }
 @media screen and (max-width: 500px){
-    .heading-title{
-        margin-top: 35%;
-    }
+
     .heading-title h2{
         font-size: 38px;
     }
     .heading-title .subtitle{
+        display: none;
         font-size: 25px;
     }
 }
