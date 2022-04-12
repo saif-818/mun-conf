@@ -10,7 +10,8 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 100px 0;
+  margin: 60px 0;
+  position: relative;
 }
 
 .container .card {
@@ -132,7 +133,7 @@
   margin: 40px 0;
   color: #27187e;
   position: absolute;
-  padding-bottom: 205%;
+  padding-bottom: 210%;
 }
 .team_heading2 {
   font-weight: 400;
@@ -167,5 +168,8 @@
     color: #27187e;
     position: absolute;
     padding-bottom: 45%;
+  }
+  .container .card .sci li a {
+    font-size: 14px;
   }
 }

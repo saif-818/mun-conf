@@ -15,10 +15,13 @@ import Soham_Naik from "../../assets/team/Soham_Naik.jpg";
 import Mansi from "../../assets/team/Mansi.jpg";
 import Rahul from "../../assets/team/rahul.jpg";
 import Saifuddin from "../../assets/team/Saifuddin.jpg";
+import Title from "./Title";
+import Footer from "../Footer";
 
 const OurTeam = () => {
   return (
     <div>
+      <Title />
       <div class="container">
         <div className="team_heading1">Secretariat</div>
         <div class="card">
@@ -406,6 +409,9 @@ const OurTeam = () => {
           </div>
         </>
       </div>
+      <br />
+      <br />
+      <Footer />
     </div>
   );
 };

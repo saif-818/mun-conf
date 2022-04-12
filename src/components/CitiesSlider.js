@@ -59,8 +59,8 @@ const CitiesSlider = (props) => {
                 ))} */}
                 {'-Think,Dicuss,Prosper-'}
               </h4>
-              <h3 className='event-schedule' style={{marginBottom:'5px',fontWeight:'200'}}>30th April to 1st May 2022</h3>
-              {/* <p className="slider__slide-readmore">read more</p> */}
+              <h3 className='event-schedule' style={{marginBottom:'5px',fontWeight:'200'}}>30th April and 1st May 2022</h3>
+              <a className="slider__slide-readmore" href={'https://linktr.ee/pictmun'} style={{color: 'white',textDecoration: 'none', fontSize: '15px'}}>Register here</a>
             </div>
             
             <div className="slider__slide-parts">

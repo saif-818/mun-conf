@@ -158,8 +158,10 @@ $letterStagger: 0.1s;
 
     &-readmore {
       position: relative;
-      font-size: 14px;
-      text-transform: lowercase;
+      font-size: 19px;
+      line-height: 10px;
+      padding: 4px;
+      text-transform: uppercase;
       backface-visibility: hidden;
       transform: translateY(-20px);
       cursor: pointer;

@@ -1,0 +1,42 @@
+.resource-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.heading-title {
+    margin-top: 7%;
+    padding: 0 0 30px;
+}
+.text-center {
+    text-align: center!important;
+}
+.heading-title .subtitle {
+    font-size: 35px;
+    color: #474545;
+    line-height: 30px;
+    font-style: italic;
+}
+.heading-title h2 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #242424;
+}
+.bordershep {
+    width: 118px;
+    height: 2px;
+    text-align: center;
+    margin: 11px auto 25px;
+    width: 60px;
+    border-bottom: 2px solid #474545;
+}
+@media screen and (max-width: 500px){
+
+    .heading-title h2{
+        font-size: 38px;
+    }
+    .heading-title .subtitle{
+        display: none;
+        font-size: 25px;
+    }
+}
