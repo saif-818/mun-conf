@@ -144,7 +144,6 @@ const OurTeam = () => {
           </ul>
         </div>
         {/* 3 on row */}
-        <div className="team_heading2">Under - Secretary General</div>
         <div class="card card1">
           <div class="content">
             <div class="imgBx">
