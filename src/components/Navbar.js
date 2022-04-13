@@ -37,18 +37,18 @@ export default function Navbar() {
       </div>
       {(toggleMenu || screenWidth > 500) && (
         <ul className="list">
-          <Link to='/ourteam' style={{textDecoration: 'none'}}>
+          <Link to='/ourteam' style={{textDecoration: 'none'}} onClick={toggleNav}>
             <li className="nav-link nav-link-ltr">Our Team</li>
           </Link>
-          <Link to='/committees' style={{textDecoration: 'none'}}>
+          <Link to='/committees' style={{textDecoration: 'none'}} onClick={toggleNav}>
             <li className="nav-link nav-link-ltr">Committees</li>
           </Link>
-          <Link to='/contactus' style={{textDecoration: 'none'}}>
+          <Link to='/contactus' style={{textDecoration: 'none'}} onClick={toggleNav}>
             <li className="nav-link nav-link-ltr">Contact us</li>
           </Link>
           <Button
                 sx={{
-                  marginRight: '5px',
+                  margin: '15px',
                   backgroundColor: "hsl(40, 86%, 50%)",
                   color: "black",
                   "&:hover": { backgroundColor: "hsl(40,86%,45%)" },

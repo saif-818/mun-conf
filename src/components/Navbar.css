@@ -1,5 +1,5 @@
 nav {
-    position: fixed;
+    position: relative;
     top: 0;
     width: 100%;
     height: 50px;
@@ -8,7 +8,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    
+    padding: 0px 5px;
 }
 a.site-logo {
     display: inline-block;
@@ -85,9 +85,12 @@ a.site-logo::before {
     position: absolute;
     right: 5px;
     top: 2px;
-    padding: 1px;
+    padding: 1px 35px;
     color: black;
     font-size: 5px;
+}
+Button{
+    padding:5% ;
 }
 @media screen and (max-width: 500px){
     a.site-logo {
@@ -95,7 +98,7 @@ a.site-logo::before {
     }
     .list {
         flex-direction: column;
-        height: 75vh;
+        height: 71vh;
     }
     .nav-link:nth-child(1){
         border-top: 1px solid hsl(40,86%,64%);
@@ -106,7 +109,7 @@ a.site-logo::before {
         border-top: 1px solid hsl(40,86%,64%);
         text-align: center;
         margin-right: 0px;
-        padding: 20px 0;
+        padding: 10px 53px;
     }
     .nav-link-ltr:hover::before{
         display: none;
