@@ -9,8 +9,8 @@ import Stats from './Stats';
 
 // Defaults to 6 days, 22 hours, 40 minutes and 0 seconds from now in your timezone.
 const futureDate = add(new Date(), {
-  days: 6,
-  hours: 22,
+  days: 18,
+  hours: 10,
   minutes: 40
 });
 

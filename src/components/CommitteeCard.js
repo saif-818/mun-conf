@@ -18,7 +18,7 @@ const CommitteeCard = ({agendaCards}) => {
                         </p>
                     </div>
                     <div class="des">
-                        <a href = {Pdf} target = "_blank" class="button" >Resources Coming Soon </a>
+                        <a href = {Pdf} target = "blank" class="button" >Resources Coming Soon </a>
                     </div>
                 </div>
             )}

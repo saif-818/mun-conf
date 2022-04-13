@@ -14,7 +14,7 @@ export default function PhotuA() {
         return (
           <div className="box" data-aos="fade-right" key={index}>
             <div className="photo-container">
-              <img src={imag.image} />
+              <img alt='directorphoto'src={imag.image} />
               <div className="text">
                 {
                   imag.text

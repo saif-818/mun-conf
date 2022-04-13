@@ -5,8 +5,8 @@ import DISEC from './committeeLogos/Black/DISEC.png';
 import AIPPM from './committeeLogos/Black/AIPPM.png';
 import UNHRC from './committeeLogos/Black/UNHRC.png';
 import UNSC from './committeeLogos/Black/UNSC.png';
-import IP from './committeeLogos/Black/IP.jpg';
-import AU from './committeeLogos/Black/AU3.jpg';
+import IP from './committeeLogos/Black/IP.png';
+import AU from './committeeLogos/Black/AU.jpg';
 import Footer from './Footer';
 
 

@@ -166,7 +166,7 @@ const OurTeam = () => {
               </a>
             </li>
             <li>
-              <a href="" target="blank">
+              <a href="/#" target="blank">
                 <InstagramIcon />
               </a>
             </li>
@@ -341,7 +341,7 @@ const OurTeam = () => {
                 </a>
               </li>
               <li>
-                <a href="" target="blank">
+                <a href="/#" target="blank">
                   <InstagramIcon />
                 </a>
               </li>

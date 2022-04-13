@@ -9,15 +9,14 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import MailIcon from "@mui/icons-material/Mail";
-import FooterIcon from './images/footer_logo1.png'
-import useMediaQuery from '@mui/material/useMediaQuery';
-// import FooterIcon from './lgo_mun_2.png'
+import FooterIcon from './images/footer_logo1.png';
+
 import { CardMedia, Typography } from "@mui/material";
 
 
 
 export default function Footer() {
-  const matches = useMediaQuery('(min-width:600px)');
+
   return (
     <footer>
       <Box

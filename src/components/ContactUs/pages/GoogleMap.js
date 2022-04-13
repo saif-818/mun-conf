@@ -7,6 +7,7 @@ const GoogleMap = () => {
     <div>
       <iframe
         className="maps-frame"
+        title="location of college"
         src= {MapSrc}
         width= '500px'
         height= '450px'

@@ -19,6 +19,7 @@ const CitiesSlider = (props) => {
     return function cleanup() {
          window.clearTimeout(changeTO);
     }
+  // eslint-disable-next-line
   },[]);
   const runAutochangeTO = () => {
     changeTO = setTimeout(() => {
