@@ -40,7 +40,7 @@ const CitiesSlider = (props) => {
 
   return (
     <div className={classNames("slider", { "s--ready": sliderReady })}>
-      <p className="slider__top-heading">Conference</p>
+      {/* <p className="slider__top-heading">Conference</p> */}
       <div className="slider__slides">
         {props.slides.map((slide, index) => (
           <div

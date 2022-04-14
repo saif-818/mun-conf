@@ -2,7 +2,7 @@ import React from 'react';
 import './ContactUs.css';
 import Banner from './pages/Banner';
 import ContactUsForm from './pages/ContactForm';
-import GoogleMap from './pages/GoogleMap';
+// import GoogleMap from './pages/GoogleMap';
 import {
   Grid,
   Container,
@@ -18,13 +18,13 @@ const ContactUs = () => {
       <br />
       <Container >
         <Grid item xs={12} sx={{display: 'flex'}}>
-          <Grid lg={8} sm={12} mb={4}>
+          <Grid xs={12}>
             {" "}
             <ContactUsForm />
           </Grid>
-          <Grid lg={4} sm={12}>
+          {/* <Grid lg={4} sm={12}>
             <GoogleMap />
-          </Grid>
+          </Grid> */}
         </Grid>
       </Container>
       <br />
