@@ -42,7 +42,6 @@ function LandingPage() {
 //   const classes = useStyles();
   return (
     <div>
-        <Navbar />
         <CitiesSlider slides={slides}/>
         <Timer />
         <Director />

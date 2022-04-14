@@ -91,7 +91,7 @@ const OurTeam = () => {
               <h3>
                 Sufiya Sayyed
                 <br />
-                <span>Charge d'Affaires USG Content and Research</span>
+                <span>Charge d'Affaires and USG Content and Research</span>
               </h3>
             </div>
           </div>
@@ -144,7 +144,6 @@ const OurTeam = () => {
           </ul>
         </div>
         {/* 3 on row */}
-        <div className="team_heading2">Under - Secretary General</div>
         <div class="card card1">
           <div class="content">
             <div class="imgBx">

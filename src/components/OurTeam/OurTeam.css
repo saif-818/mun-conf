@@ -123,7 +123,7 @@
   font-weight: 400;
   font-size: 45px;
   margin: 40px 0;
-  color: #27187e;
+  color: black;
   position: absolute;
   padding-top: 125%;
 }
@@ -131,43 +131,21 @@
   font-weight: 400;
   font-size: 45px;
   margin: 40px 0;
-  color: #27187e;
+  color: black;
   position: absolute;
   padding-bottom: 210%;
-}
-.team_heading2 {
-  font-weight: 400;
-  font-size: 45px;
-  margin: 40px 0;
-  color: #27187e;
-  position: absolute;
-  padding-bottom: 45%;
 }
 
 @media screen and (max-width: 500px) {
   .team_heading {
-    font-weight: 400;
-    font-size: 45px;
     margin: 40px 0;
-    color: #27187e;
     position: absolute;
-    padding-top: 10%;
+    padding-top: 4080px;
   }
   .team_heading1 {
-    font-weight: 400;
-    font-size: 45px;
     margin: 40px 0;
-    color: #27187e;
     position: absolute;
-    padding-bottom: 250%;
-  }
-  .team_heading2 {
-    font-weight: 400;
-    font-size: 45px;
-    margin: 40px 0;
-    color: #27187e;
-    position: absolute;
-    padding-bottom: 45%;
+    padding-bottom: 7660px;
   }
   .container .card .sci li a {
     font-size: 14px;
