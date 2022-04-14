@@ -91,7 +91,7 @@ const OurTeam = () => {
               <h3>
                 Sufiya Sayyed
                 <br />
-                <span>Charge d'Affaires USG Content and Research</span>
+                <span>Charge d'Affaires and USG Content and Research</span>
               </h3>
             </div>
           </div>
