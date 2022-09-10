@@ -1,8 +1,8 @@
 nav {
     position: relative;
     top: 0;
-    width: 100%;
-    height: 50px;
+    /* width: 100%;
+    height: 50px; */
     background: hsl(205,64%,22%);
     display: flex;
     justify-content: space-between;
@@ -38,9 +38,7 @@ a.site-logo::before {
     background: url(./pict_white_logo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0px;
-    margin: 0px;
-    margin-left: 2px;
+    
     width: 35px;
     height: 30px;
 }
@@ -60,7 +58,7 @@ a.site-logo::before {
     text-transform: uppercase;
     color: #f1f1f1;
     cursor: pointer;
-   
+   width:100%;
 }
 .nav-link::before {
     transition: 300ms;
@@ -93,12 +91,25 @@ Button{
     padding:5% ;
 }
 @media screen and (max-width: 500px){
+    /* a{
+        width:100%;
+    } */
+    .navAdjust{
+        width:100%; 
+    }
     a.site-logo {
         font-size: 22px;
     }
+    ul{
+        margin-top:80px;
+        width:100%;
+
+    }
     .list {
+        align-items:center;
         flex-direction: column;
         height: 71vh;
+        
     }
     .nav-link:nth-child(1){
         border-top: 1px solid hsl(40,86%,64%);

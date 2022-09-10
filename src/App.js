@@ -5,12 +5,13 @@ import OurTeam from './components/OurTeam/OurTeam';
 import Committee from './components/Committee';
 import ContactUs from './components/ContactUs/ContactUs';
 import Navbar from './components/Navbar';
-
+import NewNavbar from "./components/NewNavbar/NewNavbar"
 const App = () => {
   
     return(
        <>
-       <Navbar/>
+       {/* <Navbar/> */}
+       <NewNavbar/>
          <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="committees" element={<Committee />} />
