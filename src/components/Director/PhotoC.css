@@ -18,10 +18,11 @@
 }
 .photo-container img{
     float: left;
-    max-height: 300px;
-    width: 23%;
+    height: 300px;
+    max-height: 500px;
+    width: 25%;
     padding: 0 10px 0 0;
-    border-radius: 15%;
+    border-radius: 2%;
     margin: 0px 5px 3px 0px;
 }
 .photo-container{

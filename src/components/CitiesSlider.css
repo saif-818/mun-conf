@@ -1,0 +1,9 @@
+.timeline_location{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: small;
+}
+
+
