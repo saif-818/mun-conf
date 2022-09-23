@@ -27,10 +27,11 @@ export default function Nav1() {
   return (
     <>
     <div className="mast-header">
+    {/* <div className="imgr-logo hidelogo"></div> */}
        <div className='btn' onClick={toggleNav}> 
           <Hamburger toggled={toggleMenu} toggle={toggleMenu} easing="ease-in" distance="md" size={20} color='white' />
        </div>
-      
+       <div className="imgr-logo hidelogo"></div>
       {(toggleMenu || screenWidth > 500) && (
         <ul className="link_list">
           <Link to='/ourteam' style={{textDecoration: 'none'}} onClick={toggleNav}>
@@ -42,8 +43,8 @@ export default function Nav1() {
       
           <Link to='/' style={{textDecoration: 'none'}} onClick={toggleNav}>
           <li className="nav_links">
-            <div class='imgr-logo'></div>
-            <div class="logo-mun"></div>
+            <div class='imgr-logo hidelogo1'></div>
+            {/* <div class="logo-mun"></div> */}
           </li>
           </Link>
           

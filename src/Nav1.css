@@ -1,6 +1,6 @@
 .mast-header{
     /* background-color: hsl(11,54%,56%); */
-    background-color: black;
+    background-color: #E99787;
 }
 .link_list{
     display: flex;
@@ -39,6 +39,10 @@
     margin-top: 0;
     z-index: 120;
 }
+.hidelogo{
+    visibility: hidden;
+    
+}
 
 
 @media screen and (max-width: 500px){
@@ -65,5 +69,22 @@
     }
     .nav-link-ltr:hover::before{
         display: none;
+    }
+    .hidelogo{
+        visibility:visible;
+        padding: 10px;
+    }
+    .hidelogo1{
+        visibility:hidden;
+        padding: 10px;
+    }
+    .imgr-logo {
+        position: relative;
+        margin-left: 160px;
+        background-repeat: no-repeat;
+        height: 3.2rem;
+        width: 4rem;
+        margin-top: 0;
+        z-index: 120;
     }
 }
