@@ -5,6 +5,10 @@
   "dependencies": {
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
+    "@fortawesome/fontawesome-free": "^6.1.2",
+    "@fortawesome/free-brands-svg-icons": "^6.1.2",
+    "@fortawesome/free-solid-svg-icons": "^6.1.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@mui/icons-material": "^5.4.2",
     "@mui/material": "^5.4.3",
     "@popmotion/popcorn": "^0.4.4",
@@ -20,6 +24,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-lorem-ipsum": "^1.4.10",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "^4.0.3",
     "sass": "^1.49.8",
     "web-vitals": "^1.1.2"
@@ -49,7 +54,6 @@
     ]
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.180",
-    "react-router-dom": "^6.2.1"
+    "@types/lodash": "^4.14.180"
   }
 }

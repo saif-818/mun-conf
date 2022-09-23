@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from '@mui/material';
 import { Turn as Hamburger } from 'hamburger-react'
-import "./Navbar.css";
+import "./Nav1.css";
 
-export default function Navbar() {
+export default function Nav1() {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
@@ -25,45 +25,40 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav>
+    <>
+    <div className="mast-header">
+    {/* <div className="imgr-logo hidelogo"></div> */}
        <div className='btn' onClick={toggleNav}> 
           <Hamburger toggled={toggleMenu} toggle={toggleMenu} easing="ease-in" distance="md" size={20} color='white' />
        </div>
-      <div className="logo-section">
-        <div class="img-logo"></div>
-        <Link to='/' className="site-logo">
-            PICT MUN
-        </Link>
-      </div>
+       <div className="imgr-logo hidelogo"></div>
       {(toggleMenu || screenWidth > 500) && (
-        <ul className="list">
+        <ul className="link_list">
           <Link to='/ourteam' style={{textDecoration: 'none'}} onClick={toggleNav}>
-            <li className="nav-link nav-link-ltr">Our Team</li>
+            <li className="nav_links">Our Team</li>
           </Link>
           <Link to='/committees' style={{textDecoration: 'none'}} onClick={toggleNav}>
-            <li className="nav-link nav-link-ltr">Committees</li>
+            <li className="nav_links">Committees</li>
           </Link>
+      
+          <Link to='/' style={{textDecoration: 'none'}} onClick={toggleNav}>
+          <li className="nav_links">
+            <div class='imgr-logo hidelogo1'></div>
+            {/* <div class="logo-mun"></div> */}
+          </li>
+          </Link>
+          
+          <a href='https://pictmun.github.io/Newsletter/' target='_blank' style={{textDecoration: 'none'}} onClick={toggleNav}>
+            <li className="nav_links">Newsletter</li>
+          </a>
           <Link to='/contactus' style={{textDecoration: 'none'}} onClick={toggleNav}>
-            <li className="nav-link nav-link-ltr">Newsletter</li>
+            <li className="nav_links">Contact us</li>
           </Link>
-          <Link to='/contactus' style={{textDecoration: 'none'}} onClick={toggleNav}>
-            <li className="nav-link nav-link-ltr">Contact us</li>
-          </Link>
-          {/* <Button
-                sx={{
-                  margin: '15px',
-                  backgroundColor: "hsl(40, 86%, 50%)",
-                  color: "black",
-                  "&:hover": { backgroundColor: "hsl(40,86%,45%)" },
-                }}
-                variant="outlined"
-                size="small"
-                href='https://mun.pict.edu'
-              >
-                Club Wesite
-            </Button> */}
         </ul>
       )}
-    </nav>
+    </div>
+        
+    </>
   );
 }
+

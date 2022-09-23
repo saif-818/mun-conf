@@ -4,10 +4,11 @@ import Ticker from "./timer_assets/Ticker/Ticker";
 
 import style from "./Timer.module.scss";
 import "./Timer.css";
+import "./Ribbon.css";
 import Stats from "./Stats";
 
 // Defaults to 6 days, 22 hours, 40 minutes and 0 seconds from now in your timezone.
-var countDownDate = new Date("Apr 30, 2022 10:00:00").getTime();
+var countDownDate = new Date("October 15, 2022").getTime();
 var now = new Date().getTime();
 var distance = countDownDate - now;
 var days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -31,6 +32,11 @@ function Timer() {
     <div className="timer_section">
       <div className={style.pageContainer}>
         <h1>Join Our Event</h1>
+        {/* <div id="date_ribbon" class="ribbon">
+              <span class="ribbon-content">
+                <strong>Join The Conference</strong>
+              </span>
+        </div> */}
         <p>Come check out our great event. It will be lots of fun.</p>
         <Stats />
         {/* { tickerEl }

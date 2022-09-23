@@ -11,6 +11,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import MailIcon from "@mui/icons-material/Mail";
 import FooterIcon from './images/footer_logo1.png';
 
+
 import { CardMedia, Typography } from "@mui/material";
 
 
@@ -83,6 +84,7 @@ export default function Footer() {
                     sx={{ color: "white"}}
                     style={{textDecoration: 'none'}}
                     href="https://www.instagram.com/pictmun/"
+                    target='_blank'
                   >
                     <InstagramIcon fontSize="large" />
                   </Link>
@@ -92,6 +94,7 @@ export default function Footer() {
                     sx={{ color: "white"}}
                     style={{textDecoration: 'none'}}
                     href="https://www.facebook.com/pictmun"
+                    target='_blank'
                   >
                     <FacebookIcon fontSize="large" />
                   </Link>
@@ -101,6 +104,7 @@ export default function Footer() {
                     sx={{ color: "white"}}
                     style={{textDecoration: 'none'}}
                     href="https://www.linkedin.com/company/pict-model-united-nations/"
+                    target='_blank'
                   >
                     <LinkedInIcon fontSize="large" />
                   </Link>
@@ -110,6 +114,7 @@ export default function Footer() {
                     sx={{ color: "white"}}
                     style={{textDecoration: 'none'}}
                     href="https://twitter.com/pictmun?t=G9UUXlAFZRCoP7soIYidhQ&s=09"
+                    target='_blank'
                   >
                     <TwitterIcon fontSize="large" />
                   </Link>
@@ -118,6 +123,7 @@ export default function Footer() {
                   <Link
                     sx={{ color: "white"}}
                     href="mailto:pictmun@gmail.com"
+                    target='_blank'
                   >
                     <MailIcon fontSize="large" />
                   </Link>
