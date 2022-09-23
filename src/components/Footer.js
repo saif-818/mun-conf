@@ -1,3 +1,4 @@
+import React from 'react';
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
@@ -23,8 +24,9 @@ export default function Footer() {
       <Box
         px={{ xs: 3, sm: 10 }}
         py={{ xs: 5, sm: 10 }}
-        sx={{ backgroundColor: "hsl(205,64%,22%)" }}
-        color="white"
+        // sx={{ backgroundColor: "hsl(205,64%,22%)" }}
+        sx={{backgroundColor: "#A49592"}}
+        color="grey"
       >
         <Container maxWidth="lg">
           <Grid container spacing={6}>
@@ -39,40 +41,41 @@ export default function Footer() {
               </Box>
             </Grid>
             <Grid item xs={12} sm={4}>
-              <Box sx={{ m: 1, borderBottom:'3px solid',borderImage:'linear-gradient(to right, #f2be54 46%,#03979f 46%) 1',width:'50%'}}>Links</Box>
+              <Box sx={{ m: 1, borderBottom:'3px solid',borderColor: '#eed8c9',width: '30%',fontSize: '1.2em',fontWeight: '350',fontFamily: 'Helvetica Neue'}}>Links</Box>
               <Box sx={{ m: 1 }}>
                 <Take to='/ourteam' color="inherit" style={{textDecoration:'none'}}>
-                  <li style={{color:'white'}}>Our Team</li>
+                  <li style={{color:'black',listStyle: 'none'}}>Our Team</li>
                 </Take>
               </Box>
               <Box sx={{ m: 1 }}>
                 <Take to="/resources" color="inherit" style={{textDecoration:'none'}}>
-                  <li style={{color:'white'}}>Resources</li>
+                  <li style={{color:'black',listStyle: 'none'}}>Resources</li>
                 </Take>
               </Box>
               <Box sx={{ m: 1 }}>
                 <Take to="/committees" color="inherit" style={{textDecoration:'none'}}>
-                  <li style={{color:'white'}}>Committees</li>
+                  <li style={{color:'black',listStyle: 'none'}}>Committees</li>
                 </Take>
               </Box>
             </Grid>
 
             <Grid
               item
-              xs
+              xs={8}
+              sm={4}
               container
               direction="column"
               alignItems="center"
-              spacing={1}
+              spacing={2}
             >
               <Grid item xs={4}>
-                <Typography sx={{borderBottom:'3px solid',borderImage:'linear-gradient(to right, #f2be54 46%,#03979f 46%) 1'}}gutterBottom variant="subtitle1" component="div">
+                <Typography sx={{borderBottom:'3px solid',borderColor: '#eed8c9',fontFamily: 'Helvetica Neue',fontSize: '1.2em'}}gutterBottom variant="subtitle1" component="div">
                   Connect with Us!
                 </Typography>
               </Grid>
               <Grid
                 item
-                xs={6}
+                xs={4}
                 sm={4}
                 container
                 direction="row"

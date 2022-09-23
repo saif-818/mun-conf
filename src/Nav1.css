@@ -1,5 +1,4 @@
 .mast-header{
-    /* background-color: hsl(11,54%,56%); */
     background-color: #E99787;
 }
 .link_list{
@@ -13,21 +12,18 @@
 }
 .nav_links{
     font-size: 20px;
-    color: hsl(10,68%,77%);
+    color: white;
     /* font-family: 'Dosis'; */
     font-family: 'Montserrat';
 }
 .logo-mun {
-    position: absolute;
+    /* position: absolute;
     z-index: 120;
-    /* background-image: url('./components/pict_white_logo.png'); */
-    /* background-color: hsl(11,54%,56%); */
-    background-color: black;
-    border-bottom: 2px solid brown;
-    border-radius: 100%;
-    /* top: 55px; */
     width: 8rem;
     height: 2rem;
+    background-color: black;
+    border-bottom: 2px solid brown;
+    border-radius: 100%; */
 }
 .imgr-logo {
     position: relative;
@@ -46,6 +42,7 @@
 
 
 @media screen and (max-width: 500px){
+   
     a.site-logo {
         font-size: 22px;
     }
@@ -54,15 +51,17 @@
         height: 71vh;
     }
     .nav_links:nth-child(n){
-        border-top: 1px solid hsl(40,86%,64%);
+        /* border-top: 1px solid hsl(40,86%,64%); */
         margin-top: 25px;
     }
-    .nav_links:nth-child(3){
+    .nav_links:nth-child(3n){
         display: none;
+        padding: 0;
+        margin: 0;
     }
     .nav_links {
         width: 100%;
-        border-top: 1px solid hsl(40,86%,64%);
+        /* border-top: 1px solid hsl(40,86%,64%); */
         text-align: center;
         margin-right: 0px;
         padding: 10px 53px;
@@ -70,6 +69,7 @@
     .nav-link-ltr:hover::before{
         display: none;
     }
+
     .hidelogo{
         visibility:visible;
         padding: 10px;
