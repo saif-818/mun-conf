@@ -1,3 +1,4 @@
+import React from 'react';
 import style from './TickerSeparator.module.scss';
 
 const TickerSeparator = () => {

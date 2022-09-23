@@ -1,3 +1,4 @@
+import React from 'react';
 import TickerCell from '../TickerCell/TickerCell';
 import TickerSeparator from '../TickerSeparator/TickerSeparator';
 import useTicker from '../../timer_hooks/UseTicker';

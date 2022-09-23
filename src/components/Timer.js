@@ -1,11 +1,12 @@
 import { add } from "date-fns";
-
+import React from 'react';
 import Ticker from "./timer_assets/Ticker/Ticker";
 
 import style from "./Timer.module.scss";
 import "./Timer.css";
 import "./Ribbon.css";
 import Stats from "./Stats";
+import Schedule from "./Schedule";
 
 // Defaults to 6 days, 22 hours, 40 minutes and 0 seconds from now in your timezone.
 var countDownDate = new Date("October 15, 2022").getTime();
@@ -38,7 +39,7 @@ function Timer() {
               </span>
         </div> */}
         <p>Come check out our great event. It will be lots of fun.</p>
-        <Stats />
+        {/* <Stats /> */}
         {/* { tickerEl }
         <button 
             className={ style.toggleButton } 
@@ -48,6 +49,7 @@ function Timer() {
         </button> */}
         <div>
           <Ticker futureDate={futureDate} />
+          <Schedule />
         </div>
       </div>
     </div>

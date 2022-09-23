@@ -11,7 +11,16 @@ export default function Nav1() {
   const toggleNav = () => {
     setToggleMenu(!toggleMenu);
   };
-
+  const DisplayNone = {
+    '@media (max-width: 500px)': {
+       
+       margin: 0,
+       padding: 0,
+    },
+    // 'nav_links:nth-child(3)':{
+    //   visibility: 'hidden',
+    // }
+  };
   useEffect(() => {
     const changeWidth = () => {
       setScreenWidth(window.innerWidth);
@@ -40,7 +49,7 @@ export default function Nav1() {
             <li className="nav_links">Committees</li>
           </Link>
       
-          <Link to='/' style={{textDecoration: 'none'}} onClick={toggleNav}>
+          <Link to='/'  onClick={toggleNav}>
           <li className="nav_links">
             <div class='imgr-logo'></div>
             <div class="logo-mun"></div>
