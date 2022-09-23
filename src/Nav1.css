@@ -1,7 +1,5 @@
 .mast-header{
-    /* background-color: hsl(11,54%,56%); */
-    background: #e99787;
-    color: white;
+    background-color: #E99787;
 }
 .link_list{
     display: flex;
@@ -26,11 +24,6 @@
     background-color: black;
     border-bottom: 2px solid brown;
     border-radius: 100%; */
-    /* background-image: url('./components/pict_white_logo.png'); */
-    /* background-color: hsl(11,54%,56%); */
-    
-    /* top: 55px; */
-   
 }
 .imgr-logo {
     position: relative;
@@ -41,6 +34,10 @@
     width: 4rem;
     margin-top: 0;
     z-index: 120;
+}
+.hidelogo{
+    visibility: hidden;
+    
 }
 
 
@@ -72,15 +69,22 @@
     .nav-link-ltr:hover::before{
         display: none;
     }
-    .nav_links .imgr-logo{
-        visibility: hidden;
-        margin: 0;
-        padding: 0,
+
+    .hidelogo{
+        visibility:visible;
+        padding: 10px;
     }
-    .nav_links .logo-mun{
-        visibility: hidden;
-        margin: 0;
-        padding: 0;
+    .hidelogo1{
+        visibility:hidden;
+        padding: 10px;
     }
-  
+    .imgr-logo {
+        position: relative;
+        margin-left: 160px;
+        background-repeat: no-repeat;
+        height: 3.2rem;
+        width: 4rem;
+        margin-top: 0;
+        z-index: 120;
+    }
 }
