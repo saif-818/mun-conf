@@ -1,3 +1,4 @@
+import React from 'react';
 import style from './TickerCell.module.scss';
 
 const TickerCell = ({ label, value }) => {

@@ -1,3 +1,4 @@
+import React from 'react'
 import { add } from "date-fns";
 
 import Ticker from "./timer_assets/Ticker/Ticker";
