@@ -6,10 +6,10 @@ const Schedule = () => {
     <ul class="main">
 
       <div className="schedule_child">
-       <li class="date">
+       {/* <li class="date">
           <h3>Oct 15</h3>
           <p>Schedule of Events</p>
-       </li>
+       </li> */}
        <li class="events">
           <ul class="events-detail">
              <li>

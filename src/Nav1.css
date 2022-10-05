@@ -78,13 +78,5 @@
         visibility:hidden;
         padding: 10px;
     }
-    .imgr-logo {
-        position: relative;
-        margin-left: 160px;
-        background-repeat: no-repeat;
-        height: 3.2rem;
-        width: 4rem;
-        margin-top: 0;
-        z-index: 120;
-    }
+    
 }
