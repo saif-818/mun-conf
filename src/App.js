@@ -6,7 +6,6 @@ import Committee from './components/Committee';
 import ContactUs from './components/ContactUs/ContactUs';
 import Navbar from './components/Navbar';
 import Nav1 from './Nav1';
-import Team1 from './components/OurTeam/Team1';
 
 const App = () => {
   
