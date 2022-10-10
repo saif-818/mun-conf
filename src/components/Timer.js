@@ -5,7 +5,6 @@ import Ticker from "./timer_assets/Ticker/Ticker";
 import style from "./Timer.module.scss";
 import "./Timer.css";
 import "./Ribbon.css";
-import Stats from "./Stats";
 import Schedule from "./Schedule";
 
 // Defaults to 6 days, 22 hours, 40 minutes and 0 seconds from now in your timezone.
