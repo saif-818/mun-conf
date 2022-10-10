@@ -1,0 +1,83 @@
+.mast-header{
+    /* background-color: hsl(11,54%,56%); */
+    background-color: #E99787;
+}
+.link_list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+    border-bottom: brown;
+}
+.nav_links{
+    font-size: 20px;
+    color: white;
+    /* font-family: 'Dosis'; */
+    font-family: 'Montserrat';
+}
+.logo-mun {
+    /* position: absolute;
+    z-index: 120;
+    width: 8rem;
+    height: 2rem;
+    background-color: black;
+    border-bottom: 2px solid brown;
+    border-radius: 100%; */
+}
+.imgr-logo {
+    position: relative;
+    margin-left: 35px;
+    background-repeat: no-repeat;
+    background-image: url('./components/pict_white_logo.png');
+    height: 3.2rem;
+    width: 4rem;
+    margin-top: 0;
+    z-index: 120;
+}
+.hidelogo{
+    visibility: hidden;
+    
+}
+
+
+@media screen and (max-width: 500px){
+   
+    a.site-logo {
+        font-size: 22px;
+    }
+    .link_list {
+        flex-direction: column;
+        height: 71vh;
+    }
+    .nav_links:nth-child(n){
+        /* border-top: 1px solid hsl(40,86%,64%); */
+        margin-top: 25px;
+    }
+    .nav_links:nth-child(3n){
+        display: none;
+        padding: 0;
+        margin: 0;
+    }
+    .nav_links {
+        width: 100%;
+        /* border-top: 1px solid hsl(40,86%,64%); */
+        text-align: center;
+        margin-right: 0px;
+        padding: 10px 53px;
+    }
+    .nav-link-ltr:hover::before{
+        display: none;
+    }
+
+    .hidelogo{
+        visibility:visible;
+        padding: 10px;
+    }
+    .hidelogo1{
+        visibility:hidden;
+        padding: 10px;
+    }
+    
+}

@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
 }
-
 .container {
   position: relative;
   z-index: 1;
@@ -10,16 +9,38 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 60px 0;
+  margin: 0px 0;
   position: relative;
 }
+
+.container .heads{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container .heads .content_design{
+  background-color: #EED8C9;
+  padding-top: 20px;
+  padding-bottom: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
 
 .container .card {
   position: relative;
   width: 300px;
   height: 480px;
   background: rgba(255, 255, 255, 0.05);
-  margin: 60px 150px;
+  margin: 90px 150px;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
   display: flex;
@@ -29,11 +50,11 @@
 }
 .container .card1 {
   position: relative;
-  width: 300px;
-  height: 480px;
+  width: 250px;
+  height: 380px;
   background: rgba(255, 255, 255, 0.05);
-  margin: 60px;
-  margin-top: 7%;
+  margin: 60px 30px;
+  margin-top: 20%;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
   display: flex;
@@ -43,6 +64,7 @@
 }
 
 .container .card .content {
+  background-color: rgb(255, 255, 255);
   position: relative;
   display: flex;
   justify-content: center;
@@ -54,12 +76,27 @@
 .container .card:hover .content {
   transform: translateY(-20px);
 }
-
-.container .card .content .imgBx {
+.container .card .content .imgBx1 {
   position: relative;
   width: 300px;
   height: 380px;
   overflow: hidden;
+}
+.container .card .content .imgBx {
+  position: relative;
+  width: 250px;
+  height: 280px;
+  overflow: hidden;
+}
+
+
+.container .card .content .imgBx1 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .container .card .content .imgBx img {
@@ -121,31 +158,53 @@
 
 .team_heading {
   font-weight: 400;
-  font-size: 45px;
+  font-size: 2.5rem;
   margin: 40px 0;
   color: black;
   position: absolute;
-  padding-top: 125%;
+
 }
 .team_heading1 {
+  width: 100%;
+  text-align: center;
   font-weight: 400;
-  font-size: 45px;
+  font-size: 2.5rem;
   margin: 40px 0;
   color: black;
   position: absolute;
-  padding-bottom: 210%;
+  padding-bottom: 150%;
+}
+
+.team_heading2 {
+  font-family: Helvetica;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 2.5rem;
+  margin: 40px 0;
+  color: black;
+  position: absolute;
 }
 
 @media screen and (max-width: 500px) {
+  
+  .container .card{
+    margin-top: 120px;
+  }
   .team_heading {
-    margin: 40px 0;
     position: absolute;
-    padding-top: 4080px;
+    font-weight: 500;
+    font-size: 1.5rem;
   }
   .team_heading1 {
     margin: 40px 0;
     position: absolute;
-    padding-bottom: 7660px;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .team_heading2 {
+      font-weight: 500;
+      font-size: 1.5rem;
   }
   .container .card .sci li a {
     font-size: 14px;

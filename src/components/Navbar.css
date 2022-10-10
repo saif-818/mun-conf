@@ -2,13 +2,14 @@ nav {
     position: relative;
     top: 0;
     width: 100%;
-    height: 50px;
-    background: hsl(205,64%,22%);
+    height: 8vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
     padding: 0px 5px;
+    background-color: #A49592;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.5);
 }
 a.site-logo {
     display: inline-block;
@@ -35,18 +36,15 @@ a.site-logo::before {
     display: flex;
 }
 .img-logo {
-    background: url(./pict_white_logo.png);
+    background: url(./f12.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0px;
-    margin: 0px;
-    margin-left: 2px;
-    width: 35px;
-    height: 30px;
+    margin-left: 20px;
+    width: 75px;
+    height: 60px;
 }
 .list {
     list-style-type: none;
-    background: hsl(205,64%,22%);
     height: 100%;
     display: flex;
     justify-content: flex-end;
@@ -62,23 +60,6 @@ a.site-logo::before {
     cursor: pointer;
    
 }
-.nav-link::before {
-    transition: 300ms;
-    height: 5px;
-    content: "";
-    position: absolute;
-    background: #f2be54;
-    background: linear-gradient(to right, hsl(40, 86%, 64%) 46%,#03979f 46%);
-}
-  
-.nav-link-ltr::before {
-    width: 0%;
-    bottom: 5px;
-}
-  
-.nav-link-ltr:hover::before {
-    width: 20%;
-}
 
 .btn {
     display: none;
@@ -93,23 +74,27 @@ Button{
     padding:5% ;
 }
 @media screen and (max-width: 500px){
+    
     a.site-logo {
         font-size: 22px;
     }
     .list {
         flex-direction: column;
+        width: 65%;
+        background-color: hsl(10,69%,72%);
         height: 71vh;
     }
     .nav-link:nth-child(1){
-        border-top: 1px solid hsl(40,86%,64%);
+        border-top: 1px solid hsl(10,69%,72%);
         margin-top: 25px;
+        margin-bottom: 10px;
     }
     .nav-link {
         width: 100%;
-        border-top: 1px solid hsl(40,86%,64%);
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.8);
         text-align: center;
         margin-right: 0px;
-        padding: 10px 53px;
+        padding: 10px 48px;
     }
     .nav-link-ltr:hover::before{
         display: none;
