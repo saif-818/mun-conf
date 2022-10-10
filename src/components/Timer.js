@@ -1,5 +1,5 @@
+import React from 'react'
 import { add } from "date-fns";
-import React from 'react';
 import Ticker from "./timer_assets/Ticker/Ticker";
 
 import style from "./Timer.module.scss";
