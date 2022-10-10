@@ -1,7 +1,6 @@
 import React from 'react';
 import Footer from './Footer';
 import CitiesSlider from './CitiesSlider';
-import Navbar from './Navbar';
 import Timer from './Timer';
 import Director from './Director/PhotoA';
 // import img_1 from './images/img_1.jpg';
