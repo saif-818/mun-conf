@@ -11,9 +11,9 @@ import Nav from './components/Nav/Nav';
 const App = () => {
   return (
     <>
-      {/* <Navbar/> */}
+      <Navbar/>
       {/* <Nav1 /> */}
-      <Nav />
+      {/* <Nav /> */}
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/committees" element={<Committee />} />

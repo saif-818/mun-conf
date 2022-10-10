@@ -48,13 +48,13 @@ export default function Footer() {
                 </Take>
               </Box>
               <Box sx={{ m: 1 }}>
-                <Take to="/resources" color="inherit" style={{textDecoration:'none'}}>
-                  <li style={{color:'black',listStyle: 'none'}}>Resources</li>
+                <Take to="/committees" color="inherit" style={{textDecoration:'none'}}>
+                  <li style={{color:'black',listStyle: 'none'}}>Committees</li>
                 </Take>
               </Box>
               <Box sx={{ m: 1 }}>
-                <Take to="/committees" color="inherit" style={{textDecoration:'none'}}>
-                  <li style={{color:'black',listStyle: 'none'}}>Committees</li>
+                <Take to="/contactus" color="inherit" style={{textDecoration:'none'}}>
+                  <li style={{color:'black',listStyle: 'none'}}>Contact Us</li>
                 </Take>
               </Box>
             </Grid>

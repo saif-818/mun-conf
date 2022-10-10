@@ -3,16 +3,11 @@ import "./OurTeam.css";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
-import Zeel_Patel from "../../assets/team/Zeel_Patel.jpg";
-import Sufiya_Sayyed from "../../assets/team/Sufiya_Sayyed.jpeg";
 
-import Yash_Kale from "../../assets/team/Yash_Kale.jpg";
-import Karthik_Formal from "../../assets/team/Karthik_Formal.jpeg";
-import Saima_Ansari from "../../assets/team/Saima_Ansari.png";
-import Abhishek_Bora from "../../assets/team/Abhishek_Bora.png";
+import Varun_Sovani from '../../assets/team/Varun_Sovani.jpg'
 import Mansi from "../../assets/team/Mansi.jpg";
 import Rahul from "../../assets/team/rahul.jpg";
-import Saifuddin from "../../assets/team/Saifuddin.jpg";
+import Saifuddin from "../../assets/team/Saifuddin.jpeg";
 import Aditya_Gudade from '../../assets/team/Aditya_Gudade.jpg';
 import Hetavi_Gandhi from '../../assets/team/Hetavi_Gandhi.jpg';
 import Apoorvaraj_Londhe from '../../assets/team/Apoorvaraj_Londhe.jpg';
@@ -21,6 +16,12 @@ import Divya_Lambhate from '../../assets/team/Divya_Lambhate.jpg'
 import Tanishq_Mohite from '../../assets/team/Tanishq_Mohite.jpg'
 import Manas_Deshpande from '../../assets/team/Manas_Deshpande.jpg'
 import Sanket_Lokhande from '../../assets/team/Sanket_Lokhande.jpg'
+import Sanika_Gaikwad from '../../assets/team/Sanika_Gaikwad.jpg'
+import Anuja_Katruwar from '../../assets/team/Anuja_Katruwar.jpg'
+import Rashmi_Bansode from '../../assets/team/Rashmi_Bansode.jpg'
+import Varun_Kale from '../../assets/team/Varun_Kale.jpeg'
+import Aditya_Patil from '../../assets/team/Aditya_Patil.jpg'
+import Kanhu from '../../assets/team/Kanhu.jpg'
 
 import Title from "./Title";
 import Footer from "../Footer";
@@ -104,13 +105,13 @@ const OurTeam = () => {
         <div class="card">
           <div class="content">
             <div class="imgBx1">
-              <img src={Sufiya_Sayyed} alt="person1" />
+              <img src={Sanika_Gaikwad} alt="person1" />
             </div>
             <div class="contentBx">
               <h3>
-                Sufiya Sayyed
+                Sanika Gaikwad
                 <br />
-                <span>Charge d'Affaires and USG Content and Research</span>
+                <span>Executive Director</span>
               </h3>
             </div>
           </div>
@@ -133,13 +134,13 @@ const OurTeam = () => {
         <div class="card">
           <div class="content">
             <div class="imgBx1">
-              <img src={Yash_Kale} alt="person1" />
+              <img src={Varun_Kale} alt="person1" />
             </div>
             <div class="contentBx">
               <h3>
-                Yash Kale
+                 Varun Kale
                 <br />
-                <span>Chief Strategy Officer and USG Marketing</span>
+                <span>Chief Strategic Officer</span>
               </h3>
             </div>
           </div>
@@ -205,13 +206,13 @@ const OurTeam = () => {
             <div class="card card1">
               <div class="content">
                 <div class="imgBx">
-                  <img src={Saima_Ansari} alt="person1" />
+                  <img src={Sanika_Gaikwad} alt="person1" />
                 </div>
                 <div class="contentBx">
                   <h3>
-                    Saima Ansari
+                    Sanika Gaikwad
                     <br />
-                    <span>USG Design and Technical Affairs</span>
+                    <span>USG Design</span>
                   </h3>
                 </div>
               </div>
@@ -269,13 +270,13 @@ const OurTeam = () => {
             <div class="card card1">
               <div class="content">
                 <div class="imgBx">
-                  <img src={Abhishek_Bora} alt="person1" />
+                  <img src={Anuja_Katruwar} alt="person1" />
                 </div>
                 <div class="contentBx">
                   <h3>
-                    Abhishek Bora
+                    Anuja Katruwar
                     <br />
-                    <span>USG Publicity and Marketing</span>
+                    <span>USG Content and Research</span>
                   </h3>
                 </div>
               </div>
@@ -301,9 +302,9 @@ const OurTeam = () => {
 
         <div class="heads">
           <div class="content_design">
-            <div className="team_heading2">USG DELEGATE AFFAIRS</div>
+            <div className="team_heading2" style={{paddingLeft: '5%'}}>USG DELEGATE</div>
 
-            <div class="card card1">
+            {/* <div class="card card1">
               <div class="content">
                 <div class="imgBx">
                   <img src={Karthik_Formal} alt="person1" />
@@ -331,18 +332,18 @@ const OurTeam = () => {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
 
-            <div class="card card1">
+            <div class="card card1" style={{marginTop:'123px',}}>
               <div class="content">
                 <div class="imgBx">
-                  <img src={Saima_Ansari} alt="person1" />
+                  <img src={Varun_Sovani} alt="person1" />
                 </div>
                 <div class="contentBx">
                   <h3>
-                    Saima Ansari
+                     Varun Sovani
                     <br />
-                    <span>USG Design and Technical Affairs</span>
+                    <span>USG Delegate Affairs</span>
                   </h3>
                 </div>
               </div>
@@ -504,13 +505,13 @@ const OurTeam = () => {
             <div class="card card1">
               <div class="content">
                 <div class="imgBx">
-                  <img src={Zeel_Patel} alt="person1" />
+                  <img src={Rashmi_Bansode} alt="person1" />
                 </div>
                 <div class="contentBx">
                   <h3>
-                    Zeel Patel
+                    Rashmi Bansode
                     <br />
-                    <span>USG External Affairs and Publicity</span>
+                    <span>USG Outreach</span>
                   </h3>
                 </div>
               </div>
@@ -533,13 +534,13 @@ const OurTeam = () => {
             <div class="card card1">
               <div class="content">
                 <div class="imgBx">
-                  <img src={Abhishek_Bora} alt="person1" />
+                  <img src={Varun_Kale} alt="person1" />
                 </div>
                 <div class="contentBx">
                   <h3>
-                    Abhishek Bora
+                     Varun Kale
                     <br />
-                    <span>USG Publicity and Marketing</span>
+                    <span>USG Outreach</span>
                   </h3>
                 </div>
               </div>
@@ -578,7 +579,7 @@ const OurTeam = () => {
                   <h3>
                     Saifuddin Shaikh
                     <br />
-                    <span>USG Technical and Content Affairs</span>
+                    <span>USG Technical</span>
                   </h3>
                 </div>
               </div>
@@ -691,8 +692,78 @@ const OurTeam = () => {
           </div>
           </div>
         </>
+        {/* Video Editing */}
+        <div class="heads">
+        <div class="content_design">
+
+          <div class="heads">
+            <div className="team_heading">VIDEO EDITING</div><br />
+            
+
+            <div class="card card1">
+              <div class="content">
+                <div class="imgBx">
+                  <img src={Kanhu} alt="person1" />
+                </div>
+                <div class="contentBx">
+                  <h3>
+                     Kanhu
+                    <br />
+                    <span>USG Video Editing</span>
+                  </h3>
+                </div>
+              </div>
+              <ul class="sci">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/mansi-gundre-a6a722207/"
+                    target="blank"
+                  >
+                    <LinkedInIcon />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://instagram.com/mansii.iii.__" target="blank">
+                    <InstagramIcon />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="card card1">
+              <div class="content">
+                <div class="imgBx">
+                  <img src={Aditya_Patil} alt="person1" />
+                </div>
+                <div class="contentBx">
+                  <h3>
+                     Aditya Patil
+                    <br />
+                    <span>USG Video Editing</span>
+                  </h3>
+                </div>
+              </div>
+              <ul class="sci">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/rahul-amrutkar-03149b221"
+                    target="blank"
+                  >
+                    <LinkedInIcon />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://instagram.com/rkamrutkar1234@" target="blank">
+                    <InstagramIcon />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </div>
+          </div>
 
       </div>
+      
       <br />
       <br />
       <Footer />
